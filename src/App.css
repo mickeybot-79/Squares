@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(79, 171, 184);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#base {
+  width: 100vw;
+  height: 100vh;
+}
+
+.buttons {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  border-radius: 15px;
+  font-size: 40px;
+  cursor: pointer;
+}
