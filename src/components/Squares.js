@@ -95,7 +95,7 @@ export default function Squares(props) {
     })
 
     return (
-        <div id="base">
+        <div id="squares-base">
             {elementSquares}
         </div>
     )
