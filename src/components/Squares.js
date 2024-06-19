@@ -28,10 +28,10 @@ export default function Squares(props) {
 
     function handleClick(id) {
         props.setToggle(id)
-        setSquares(prevSquarePosition => {
+        setSquares(prevSquares => {
             const newSquares = []
-            for (let i = 0; i < prevSquarePosition.length; i++) {
-                const currentSquare = prevSquarePosition[i]
+            for (let i = 0; i < prevSquares.length; i++) {
+                const currentSquare = prevSquares[i]
                 if (currentSquare.id === id) {
                     const updatedSquare = {
                         ...currentSquare,
