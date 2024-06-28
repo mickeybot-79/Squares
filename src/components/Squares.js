@@ -13,7 +13,7 @@ export default function Squares(props) {
             for (let i = 0; i < limit; i++) {
                 newSquares.push({
                     id: i,
-                    innerHTML: 'Click Me',
+                    innerHTML: 'Click Me!',
                     style: {
                         backgroundColor: `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`,
                         zIndex: '',
